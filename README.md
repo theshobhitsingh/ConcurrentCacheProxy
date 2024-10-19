@@ -26,4 +26,8 @@ This project implements a multi-threaded HTTP proxy server in C, which supports 
 2. **Compile the Proxy Server**: Use the provided Makefile to compile the server.
    ```bash
    make
+3. **Run the Proxy Server**:
+  ```bash
+  Copy code
+./proxy <port_number>
 
