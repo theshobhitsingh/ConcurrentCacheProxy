@@ -41,12 +41,12 @@ This project implements a Multi-Threaded HTTP Proxy Server in C, which supports 
 2. Send HTTP GET requests through the proxy, and it will handle forwarding the requests to the specified servers.
 
 ## File Structure
-.
-├── README.md              # Project documentation
-├── Makefile               # Build instructions
-├── proxy_server_with_cache.c  # Main server implementation
-├── proxy_parse.c          # HTTP request parsing and caching logic
-└── proxy_parse.h          # Header file for parsing functions and cache structure
+. <br>
+├── README.md              # Project documentation <br>
+├── Makefile               # Build instructions <br>
+├── proxy_server_with_cache.c  # Main server implementation <br>
+├── proxy_parse.c          # HTTP request parsing and caching logic <br>
+└── proxy_parse.h          # Header file for parsing functions and cache structure <br>
 
 ## Key Functions
 
