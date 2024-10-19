@@ -74,8 +74,10 @@ To create a tarball of the project:
 make tar
 ```
  ## Acknowledgments
-Inspired by various networking and concurrent programming resources.
-Utilized the pthread library for multi-threading capabilities.
+ 
+>< Inspired by various networking and concurrent programming resources.
+>< Utilized the pthread library for multi-threading capabilities.
+
 ## Contributing
 Contributions are encouraged! Please follow these steps to contribute:
 
