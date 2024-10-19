@@ -82,10 +82,10 @@ make tar
 
 Contributions are encouraged! Please follow these steps to contribute:
 
-I. Fork the repository: git checkout -b feature/YourFeature
-II.Make your changes and commit: git commit -m "Add your feature"
-III. Push to the branch: git push origin feature/YourFeature
-IV. Create a pull request.
+I. Fork the repository: git checkout -b feature/YourFeature <br>
+II.Make your changes and commit: git commit -m "Add your feature" <br>
+III. Push to the branch: git push origin feature/YourFeature <br>
+IV. Create a pull request. <br>
 
 Feel free to reach out for any questions or collaborations!
 
