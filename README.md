@@ -71,3 +71,12 @@ make tar
  ## Acknowledgments
 Inspired by various networking and concurrent programming resources.
 Utilized the pthread library for multi-threading capabilities.
+## Contributing
+Contributions are encouraged! Please follow these steps to contribute:
+
+I. Fork the repository: git checkout -b feature/YourFeature
+II.Make your changes and commit: git commit -m "Add your feature"
+III. Push to the branch: git push origin feature/YourFeature
+IV. Create a pull request.
+
+Feel free to reach out for any questions or collaborations!
