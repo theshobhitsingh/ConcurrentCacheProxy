@@ -23,9 +23,11 @@ This project implements a Multi-Threaded HTTP Proxy Server in C, which supports 
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+   
 2. **Compile the Proxy Server**: Use the provided Makefile to compile the server.
    ```bash
    make
+   
 3. **Run the Proxy Server**:
    ```bash
    Copy code
