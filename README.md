@@ -49,13 +49,15 @@ This project implements a Multi-Threaded HTTP Proxy Server in C, which supports 
 └── proxy_parse.h          # Header file for parsing functions and cache structure
 
 ## Key Functions
+
 handle_request(): Manages the client's request, checking the cache and forwarding the request if necessary.
 add_cache_element(): Adds a response to the cache.
 find(): Searches for a URL in the cache and updates its access time.
 remove_cache_element(): Removes the least recently used cache element when the cache exceeds its size limit.
 
 ## Error Handling
-The proxy server implements various HTTP status codes:
+
+**The proxy server implements various HTTP status codes**:
 
 400 Bad Request: Invalid request format.
 403 Forbidden: Access denied to the requested resource.
