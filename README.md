@@ -61,3 +61,7 @@ The proxy server implements various HTTP status codes:
 
 ## Cleanup
 To remove compiled files, use:
+```bash
+   make clean
+
+
