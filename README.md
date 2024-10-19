@@ -27,7 +27,10 @@ This project implements a multi-threaded HTTP proxy server in C, which supports 
    ```bash
    make
 3. **Run the Proxy Server**:
-  ```bash
-  Copy code
-./proxy <port_number>
+   ```bash
+   Copy code
+  ./proxy <port_number>
+
+  ---> Replace <port_number> with the desired port for the proxy server (default is 8080).
+4.
 
