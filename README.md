@@ -80,3 +80,5 @@ III. Push to the branch: git push origin feature/YourFeature
 IV. Create a pull request.
 
 Feel free to reach out for any questions or collaborations!
+## Developer
+This project is developed by ***Shobhit Singh***
