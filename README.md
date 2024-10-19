@@ -50,3 +50,11 @@ handle_request(): Manages the client's request, checking the cache and forwardin
 add_cache_element(): Adds a response to the cache.
 find(): Searches for a URL in the cache and updates its access time.
 remove_cache_element(): Removes the least recently used cache element when the cache exceeds its size limit.
+
+## Error Handling
+The proxy server implements various HTTP status codes:
+
+400 Bad Request: Invalid request format.
+403 Forbidden: Access denied to the requested resource.
+404 Not Found: The requested resource could not be found.
+500 Internal Server Error: Server encountered an unexpected condition.
