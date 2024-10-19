@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a multi-threaded HTTP proxy server in C, which supports caching of responses to optimize performance. The server can handle multiple client requests concurrently using threads, with a caching mechanism to store responses for faster retrieval.
+This project implements a Multi-Threaded HTTP Proxy Server in C, which supports caching of responses to optimize performance. The server can handle multiple client requests concurrently using threads, with a caching mechanism to store responses for faster retrieval.
 
 ## Features
 
