@@ -44,3 +44,9 @@ Send HTTP GET requests through the proxy, and it will handle forwarding the requ
 ├── proxy_server_with_cache.c  # Main server implementation
 ├── proxy_parse.c          # HTTP request parsing and caching logic
 └── proxy_parse.h          # Header file for parsing functions and cache structure
+
+## Key Functions
+handle_request(): Manages the client's request, checking the cache and forwarding the request if necessary.
+add_cache_element(): Adds a response to the cache.
+find(): Searches for a URL in the cache and updates its access time.
+remove_cache_element(): Removes the least recently used cache element when the cache exceeds its size limit.
