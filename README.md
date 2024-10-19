@@ -36,8 +36,9 @@ This project implements a Multi-Threaded HTTP Proxy Server in C, which supports 
   ---> Replace <port_number> with the desired port for the proxy server (default is 8080).
   
 ## Usage
-Configure your browser or HTTP client to use the proxy server's IP address and port.
-Send HTTP GET requests through the proxy, and it will handle forwarding the requests to the specified servers.
+
+1. Configure your browser or HTTP client to use the proxy server's IP address and port.
+2. Send HTTP GET requests through the proxy, and it will handle forwarding the requests to the specified servers.
 
 ## File Structure
 .
