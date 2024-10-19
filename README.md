@@ -58,3 +58,6 @@ The proxy server implements various HTTP status codes:
 403 Forbidden: Access denied to the requested resource.
 404 Not Found: The requested resource could not be found.
 500 Internal Server Error: Server encountered an unexpected condition.
+
+## Cleanup
+To remove compiled files, use:
