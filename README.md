@@ -68,4 +68,6 @@ To create a tarball of the project:
 ```bash
 make tar
 ```
-
+ ## Acknowledgments
+Inspired by various networking and concurrent programming resources.
+Utilized the pthread library for multi-threading capabilities.
