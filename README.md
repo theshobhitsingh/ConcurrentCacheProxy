@@ -37,3 +37,10 @@ This project implements a multi-threaded HTTP proxy server in C, which supports 
 Configure your browser or HTTP client to use the proxy server's IP address and port.
 Send HTTP GET requests through the proxy, and it will handle forwarding the requests to the specified servers.
 
+## File Structure
+.
+├── README.md              # Project documentation
+├── Makefile               # Build instructions
+├── proxy_server_with_cache.c  # Main server implementation
+├── proxy_parse.c          # HTTP request parsing and caching logic
+└── proxy_parse.h          # Header file for parsing functions and cache structure
