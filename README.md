@@ -79,6 +79,7 @@ make tar
 >< Utilized the pthread library for multi-threading capabilities.
 
 ## Contributing
+
 Contributions are encouraged! Please follow these steps to contribute:
 
 I. Fork the repository: git checkout -b feature/YourFeature
@@ -87,5 +88,7 @@ III. Push to the branch: git push origin feature/YourFeature
 IV. Create a pull request.
 
 Feel free to reach out for any questions or collaborations!
+
 ## Developer
+
 This project is developed by ***Shobhit Singh***
