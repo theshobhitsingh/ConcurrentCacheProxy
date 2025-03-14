@@ -13,9 +13,9 @@ This project implements a Multi-Threaded HTTP Proxy Server in C, which supports 
 
 ## Requirements
 
-- GCC (GNU Compiler Collection)
-- pthread library for multi-threading support
-- POSIX-compliant system (Linux or macOS)
+- GCC (GNU Compiler Collection) <br>
+- pthread library for multi-threading support <br>
+- POSIX-compliant system (Linux or macOS) <br>
 
 ## Installation
 
@@ -50,19 +50,19 @@ This project implements a Multi-Threaded HTTP Proxy Server in C, which supports 
 
 ## Key Functions
 
-handle_request(): Manages the client's request, checking the cache and forwarding the request if necessary.
-add_cache_element(): Adds a response to the cache.
-find(): Searches for a URL in the cache and updates its access time.
-remove_cache_element(): Removes the least recently used cache element when the cache exceeds its size limit.
+handle_request(): Manages the client's request, checking the cache and forwarding the request if necessary. <br>
+add_cache_element(): Adds a response to the cache. <br>
+find(): Searches for a URL in the cache and updates its access time. <br>
+remove_cache_element(): Removes the least recently used cache element when the cache exceeds its size limit. <br>
 
 ## Error Handling
 
 **The proxy server implements various HTTP status codes**:
 
-400 Bad Request: Invalid request format.
-403 Forbidden: Access denied to the requested resource.
-404 Not Found: The requested resource could not be found.
-500 Internal Server Error: Server encountered an unexpected condition.
+400 Bad Request: Invalid request format. <br>
+403 Forbidden: Access denied to the requested resource. <br>
+404 Not Found: The requested resource could not be found. <br>
+500 Internal Server Error: Server encountered an unexpected condition. <br>
 
 ## Cleanup
 To remove compiled files, use:
@@ -75,8 +75,8 @@ make tar
 ```
  ## Acknowledgments
  
->< Inspired by various networking and concurrent programming resources.
->< Utilized the pthread library for multi-threading capabilities.
+>< Inspired by various networking and concurrent programming resources. <br>
+>< Utilized the pthread library for multi-threading capabilities. <br>
 
 ## Contributing
 
